@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Project0_2
 {
@@ -30,7 +29,7 @@ namespace Project0_2
 
         static string[] productsWeSell()
         {
-            string[] items = {"Pizza", "Wings", "Drinks", "Sides", "Exit"};
+            string[] items = {"Pizza", "Wings", "Drinks", "Sides", "Deserts", "Exit"};
             int a = 0;
 
             for (a = 1; a <= items.Length; a++)
