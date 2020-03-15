@@ -8,7 +8,7 @@ namespace Project0_2
         //private string _name;
         //private Dictionary<string, double> _choices;
         public string Name { get; set; }
-        public Dictionary<string, double> Choices { get; set; }
+        public Dictionary<string, double> Choices { get; set; } = new Dictionary<string, double>();
         public void Border(string message)
         {
             int a  = 0;

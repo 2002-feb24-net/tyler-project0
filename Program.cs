@@ -15,7 +15,7 @@ namespace Project0_2
             pizza1.Intro();
             pizza1.ProductChoices();
             pizza1.DisiplayChoices();
-            pizza1.DisplayChoicesAndPrices();z
+            pizza1.DisplayChoicesAndPrices();
         }
 
         static void Prompt()
