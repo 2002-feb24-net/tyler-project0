@@ -4,6 +4,11 @@ namespace Project0_2
 {
     public class Sides : Product, IAddChoices
     {
+        public Sides()
+        {
+            Name = "Sides";
+        }
+
         public Dictionary<string,double> ProductChoices()
         {
             Choices.Add("Stuffed Garlic Knots", 5.99);
