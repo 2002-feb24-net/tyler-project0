@@ -7,6 +7,7 @@ namespace Project0_2
         public Desert()
         {
             Name = "Drinks";
+            ProductChoices();
         }
 
         public Dictionary<string,double> ProductChoices()

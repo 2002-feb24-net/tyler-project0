@@ -7,6 +7,7 @@ namespace Project0_2
         public Sides()
         {
             Name = "Sides";
+            ProductChoices();
         }
 
         public Dictionary<string,double> ProductChoices()

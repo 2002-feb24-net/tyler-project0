@@ -7,6 +7,7 @@ namespace Project0_2
         public Pizza()
         {
             Name = "Pizza";
+            ProductChoices();
         }
         
         public Dictionary<string,double> ProductChoices()

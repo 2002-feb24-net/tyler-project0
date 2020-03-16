@@ -51,9 +51,8 @@ namespace Project0_2
         public void GroupMethod()
         {
             Intro();
-            
-
-
+            DisiplayChoices();
+            DisplayChoicesAndPrices();
         }
     }
 }

@@ -8,13 +8,8 @@ namespace Project0_2
         { 
             Prompt();
             productsWeSell();
-
-            var pizza1 = new Pizza();
+            UserDecides();
             
-            pizza1.Intro();
-            pizza1.ProductChoices();
-            pizza1.DisiplayChoices();
-            pizza1.DisplayChoicesAndPrices();
         }
 
         static void Prompt()
@@ -46,6 +41,17 @@ namespace Project0_2
             System.Console.WriteLine();
             Console.Write("Which one would you like");
             int userInput = int.Parse(Console.ReadLine());
+
+            switch(userInput)
+            {
+                case 1:
+                    var pizza1 = new Pizza();
+                    pizza1.GroupMethod();
+                break; 
+                case 2:
+                    var wings1 = new Wings();
+                break;
+            }
 
 
             return userInput;

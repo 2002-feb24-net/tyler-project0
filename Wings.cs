@@ -7,6 +7,7 @@ namespace Project0_2
         public Wings()
         {
             Name = "Wing";
+            ProductChoices();
         }
 
         public Dictionary<string,double> ProductChoices()
