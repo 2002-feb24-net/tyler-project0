@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace tyler_project0
+namespace Project0_2
 {
     public class Customer
     {
@@ -48,6 +48,7 @@ namespace tyler_project0
             PrintInfo();
             System.Console.WriteLine("Great now setup a Username and Password");
             UserNameAndPass();
+            CustOrder.Add("cheese", 10);
         }
 
         public void PrintInfo()
